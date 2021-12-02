@@ -1,4 +1,4 @@
-module github.com/hayeah/qtumaddr
+module github.com/hayeah/htmlcoinaddr
 
 go 1.13
 
