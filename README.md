@@ -7,7 +7,7 @@ The address in bytes is `ripemd160(sha256(pubkey))`. This address could be encod
 Install
 
 ```
-go get -u github.com/hayeah/qtumaddr
+go get -u github.com/htmlcoin/htmlcoinaddr
 ```
 
 Convert hex address to base58 address (test net):
