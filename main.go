@@ -11,11 +11,11 @@ import (
 )
 
 const (
-	qtumMainPubKeyHashAddrID = 58
-	qtumMainScriptHashAddrID = 50
+	htmlcoinMainPubKeyHashAddrID = 41
+	htmlcoinMainScriptHashAddrID = 100
 
-	qtumTestNetPubKeyHashAddrID = 120
-	qtumTestNetScriptHashAddrID = 110
+	htmlcoinTestNetPubKeyHashAddrID = 100
+	htmlcoinTestNetScriptHashAddrID = 110
 )
 
 var (
@@ -50,9 +50,9 @@ func run() error {
 	var err error
 	var out string
 
-	var version byte = qtumMainPubKeyHashAddrID
+	var version byte = htmlcoinMainPubKeyHashAddrID
 	if *flagIsTestnet {
-		version = qtumTestNetPubKeyHashAddrID
+		version = htmlcoinTestNetPubKeyHashAddrID
 	}
 
 	hexAddr := *flagHexAddress
