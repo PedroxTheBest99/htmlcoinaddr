@@ -1,4 +1,4 @@
-# QTUM Address Converter
+# HTMLCOIN Address Converter
 
 The address in bytes is `ripemd160(sha256(pubkey))`. This address could be encoded either with hex or base58.
 
@@ -13,33 +13,33 @@ go get -u github.com/hayeah/qtumaddr
 Convert hex address to base58 address (test net):
 
 ```
-qtumaddr --hex fe59cbc1704e89a698571413a81f0de9d8f00c69 --test
-qgkGMtMJbK921UZpwYt3bMhE9d7nNMyUcC
+htmlcoinaddr --hex fe59cbc1704e89a698571413a81f0de9d8f00c69 --test
+hgkGMtMJbK921UZpwYt3bMhE9d7nNMyUcC
 ```
 
 Convert hex address to base58 address (main net):
 
 ```
-qtumaddr --hex fe59cbc1704e89a698571413a81f0de9d8f00c69
-QjnsK9sSa8QhJbvTRYEHXapT8M9JHhSLqY
+htmlcoinaddr --hex fe59cbc1704e89a698571413a81f0de9d8f00c69
+HjnsK9sSa8QhJbvTRYEHXapT8M9JHhSLqY
 ```
 
 Convert base58 address to hex address:
 
 ```
-qtumaddr --base58 qgkGMtMJbK921UZpwYt3bMhE9d7nNMyUcC
+htmlcoinaddr --base58 hgkGMtMJbK921UZpwYt3bMhE9d7nNMyUcC
 fe59cbc1704e89a698571413a81f0de9d8f00c69
 ```
 
 ```
-qtumaddr --base58 QjnsK9sSa8QhJbvTRYEHXapT8M9JHhSLqY
+htmlcoinaddr --base58 HjnsK9sSa8QhJbvTRYEHXapT8M9JHhSLqY
 fe59cbc1704e89a698571413a81f0de9d8f00c69
 ```
 
 ## Help
 
 ```
-usage: qtumaddr [<flags>]
+usage: htmlcoinaddr [<flags>]
 
 Flags:
       --help           Show context-sensitive help (also try --help-long and --help-man).
