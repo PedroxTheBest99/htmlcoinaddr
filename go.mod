@@ -1,4 +1,4 @@
-module github.com/hayeah/htmlcoinaddr
+module github.com/htmlcoin/htmlcoinaddr
 
 go 1.13
 
